@@ -1,0 +1,39 @@
+.description-post{
+
+    .user-a{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 200px;
+        min-width: 200px;
+        max-width: 100%;
+        padding: 10px 20px;
+        border-radius: 1000px;
+        background: $dark;
+        color: #fff;
+        text-align: center;
+        margin: 10px 0;
+        margin-bottom: 45px;
+    }
+
+    .date{
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        color: $dark-light;
+    }
+
+    .feed,
+    .description{
+        text-align: justify;
+        margin: 20px 0;
+        line-height: 25px;
+    }
+
+    .feed{
+        span{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+}

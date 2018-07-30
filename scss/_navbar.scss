@@ -1,0 +1,69 @@
+.navbar{
+    display: block;
+    width: 100%;
+    height: 65px;
+    margin-top: 10px;
+
+    & > .btn{
+        color: #fff;
+        line-height: 65px;
+    }
+
+    & > .btn{
+        color: $primary;
+        line-height: 65px;
+    }
+
+    .logo{
+        width: 120px;
+        float: left;
+
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .menu{
+        float: right;
+        height: 100%;
+
+        ul{
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+
+            li{
+                list-style: none;
+                height: 100%;
+                margin-left: 20px;
+                font-size: 18px;
+
+                &:first-child{
+                    margin-left: 0;
+                }
+
+                & > a:not(.btn){
+                    text-decoration: none;
+                    color: 	$dark;
+                    text-transform: uppercase;
+                }
+                & > a.btn{
+                    line-height: 65px;
+                }
+
+                .btn-user{
+                    position: relative;
+                    display: block;
+                    border-radius: 50%;
+                    text-align: center;
+                    font-size: 2.5em;
+                    cursor: pointer;
+                }
+            }
+            
+        }
+    }
+
+}

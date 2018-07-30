@@ -1,0 +1,18 @@
+.dgrid{
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    gap: 1em;
+
+    .col-1{
+        width: 100%;
+    }
+
+    .col-2{
+        width: 100%;
+    }
+
+}
+
+.span{
+    grid-column: 1 / span 2;
+}

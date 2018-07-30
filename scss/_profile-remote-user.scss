@@ -1,0 +1,75 @@
+.row{
+	display: grid;
+	grid-template-columns: 300px 1fr;
+
+	.col-1, 
+	.col-2{
+		padding: 10px;
+	}
+
+	.col-1{
+		width: 100%;
+		height: 100%;
+
+		.side-top{
+			width: 100%;
+
+			h2{
+				display: block;
+				width: 100%;
+				text-align: center;
+				font-size: 35px;
+				text-transform: capitalize;
+			}
+
+			p{
+				width: 100%;
+				font-size: 20px;
+				text-align: center;
+			}
+		}
+
+		.description{
+			width: 100%;
+			padding: 20px 0;
+
+			p{
+				width: 100%;
+				text-align: justify;
+			}
+		}
+
+		.contact{
+			width: 100%;
+
+			ul{
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+
+				li{
+					list-style: none;
+					margin-bottom: 10px;
+
+					&:last-child{
+						margin-bottom: 0;
+					}
+
+					.item{
+						display: flex;
+						
+						span{
+							margin-right: 40px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.col-2{
+		width: 100%;
+		height: 100%;
+		background: #cccccc;
+	}
+}

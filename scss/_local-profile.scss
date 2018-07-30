@@ -1,0 +1,30 @@
+.main-profile{
+    
+    width: 100%;
+    min-height: 60vh;
+
+    & > .form-control{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        margin-bottom: 40px;
+    }
+
+    ul{
+        display: block;
+        width: 100%;
+
+        li{
+            height: 45px;
+            list-style: none;
+            margin: 20px 0;
+
+            & > .btn{
+                line-height: 45px;
+            }
+        }
+    }
+
+
+}

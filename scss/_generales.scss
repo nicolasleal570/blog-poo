@@ -1,0 +1,77 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: $dark;
+}
+
+.wrap{
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+.btn-primary{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: $primary;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-secundary{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid $primary;
+    color: $primary;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bg-light{
+    background: rgba(59, 48, 118, 0.06);
+}
+
+.title{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 50px 0;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: $dark;
+
+    &:before{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 20%;
+        height: 1.5px;
+        bottom: 0;
+        left: 40%;
+        background: $dark;
+    }
+}

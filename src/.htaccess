@@ -1,0 +1,6 @@
+#Enlaces simbólicos
+
+#Options +FollowSymLinks
+#RewriteEngine On
+
+#RewriteRule ^([a-zA-Z0-9]+)$ index.php?user=$1

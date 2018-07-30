@@ -1,0 +1,38 @@
+.bg{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 65px - 10px);
+    background: url(../img/bg-landing.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .wrap{
+        position: relative;
+
+        .info{
+            position: absolute;
+            left: 0;
+            width: 58.333333%;
+            transform: translate(0%, 50%);
+            color: $dark;
+
+            h1{
+                display: block;
+                font-size: 45px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+
+            p{
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+        }      
+
+    }
+
+
+
+}
